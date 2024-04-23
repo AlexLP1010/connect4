@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.hide {
+  position: absolute;
+  visibility: hidden;
+}
+
+.board {
+  display: flex;
+}
+
+.player_leyend {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.actual_turn {
+  border: 3px solid #242424;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.cell {
+  min-width: 3em;
+  min-height: 3em;
+  background-color: azure;
+  border: 1px solid #000;
+}
+
+.pj1_cell {
+  background-color: #c51414;
+}
+
+.pj2_cell {
+  background-color: #c1ce13;
+}

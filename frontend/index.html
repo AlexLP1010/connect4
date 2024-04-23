@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="favico.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Connect 4</title>
+  </head>
+  <body>
+    <div class="hub" id="hub">
+      <div><button id="createGameBtn">Create game</button></div>
+      <div id="gameList"></div>
+    </div>
+    <div class="main_game hide" id="mainGame">
+      <div>
+        <div>
+          <span
+            class="player_leyend pj1_cell actual_turn"
+            id="playerLeyend1"
+          ></span>
+          <span id="p1Text">Player 1</span>
+        </div>
+        <div>
+          <span class="player_leyend pj2_cell" id="playerLeyend2"></span>
+          <span id="p2Text">Player 2</span>
+        </div>
+      </div>
+      <div class="board" id="gameBoard"></div>
+      <div class="hide" id="gameMessage"></div>
+      <div class="hide" id="winnerPopup">
+        <p id="winnerText"></p>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+    <footer>0.0.1-alpha</footer>
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
