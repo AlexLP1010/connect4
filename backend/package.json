@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "dev": "NODE_ENV=development tsx watch index.ts",
-    "build": "tsc -b tsconfig.json '../tsconfig.json'"
+    "build": "tsc -b tsconfig.json"
   },
   "author": "",
   "license": "ISC",

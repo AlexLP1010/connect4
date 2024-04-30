@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "es2020",
-    "moduleResolution": "node10",
-    "outDir": "./build",
+    "target": "ES2015",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "../build",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

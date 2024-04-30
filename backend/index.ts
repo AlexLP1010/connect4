@@ -9,7 +9,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server, appConfig.SOCKET_IO_SERVER_OPTIONS);
 
-app.use("/", express.static("static"));
+app.use("/", express.static(__dirname + "/static"));
 
 io.on("connection", (socket) => {
   prepareSocket(socket, io);
